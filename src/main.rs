@@ -1,5 +1,5 @@
-use rust_test::hello;
+use rust_test::hello::hello_functions;
 
 fn main() {
-    hello::say_hello()
+    hello_functions::say_hello()
 }
